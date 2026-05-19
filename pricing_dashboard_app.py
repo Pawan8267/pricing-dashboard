@@ -27,6 +27,34 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown("""
+<style>
+
+/* Hide Streamlit menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Hide footer */
+footer {
+    visibility: hidden;
+}
+
+/* Hide header */
+header {
+    visibility: hidden;
+}
+
+/* Hide GitHub/Fork button */
+.viewerBadge_container__1QSob,
+.styles_viewerBadge__1yB5_,
+.viewerBadge_link__1S137,
+.stDeployButton {
+    display: none !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 # =========================
 # CSS THEME
